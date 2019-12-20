@@ -95,7 +95,7 @@ client.on("message", async message => {
             message.delete().catch(O_o=>{});
             message.channel.send(sayMessage);
         } else {
-            return message.reply("Estou dormindo! u.u");
+            return message.reply("Estou dormindo! (⌒_⌒;");
         }
     }
  
@@ -108,7 +108,7 @@ client.on("message", async message => {
             message.channel.bulkDelete(fetched)
             .catch(error => message.reply(`${error}`))
         } else {
-            return message.reply("Estou dormindo! u.u");
+            return message.reply("Estou dormindo! (⌒_⌒;");
         }
       }
  
